@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex-1 flex flex-col items-center justify-center p-8 gap-10">
         <h1 className="text-4xl font-bold text-blue-700">Welcome to Alzheimer Support</h1>
         <p className="mt-4 text-gray-600 text-lg text-center max-w-3xl">
-          A platform designed to assist Alzheimer's patients and their caregivers. 
+          A platform designed to assist Alzheimer's patients and their caregivers.
           Stay organized, find helpful resources, and get notified about important tasks.
         </p>
 
@@ -20,7 +20,7 @@ export default function Home() {
         <div className="mt-8 max-w-4xl text-center">
           <h2 className="text-2xl font-semibold text-gray-700">Why Use This Platform?</h2>
           <p className="mt-3 text-gray-600">
-            Alzheimer's can make daily life challenging, but with proper planning and assistance, 
+            Alzheimer's can make daily life challenging, but with proper planning and assistance,
             patients and caregivers can manage routines effectively. This platform provides:
           </p>
           <ul className="mt-4 text-gray-700 text-lg">
@@ -29,6 +29,22 @@ export default function Home() {
             <li>✔️ A <b>resource hub</b> with articles, tips, and support materials.</li>
             <li>✔️ A <b>contact system</b> for staying in touch with caregivers or loved ones.</li>
           </ul>
+        </div>
+
+        <div className="mt-8 bg-white p-6 rounded-lg shadow-md w-full max-w-lg text-center border-l-4 border-blue-500">
+          <h2 className="text-2xl font-bold text-gray-800">The Hardest in the Scene Chatbot</h2>
+          <p className="text-gray-600 mt-2">
+            Meet the toughest AI assistant in Alzheimer care. Fast, smart, and built to help—no nonsense.
+            Whether you need guidance or quick info, it's got you covered.
+          </p>
+          <a
+            href="https://amcb1.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-600 text-white px-6 py-2 mt-4 rounded hover:bg-blue-700 transition shadow-lg"
+          >
+            Open Chatbot Now
+          </a>
         </div>
 
         {/* Features Section */}
