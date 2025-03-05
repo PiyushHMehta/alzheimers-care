@@ -30,7 +30,7 @@ export default function Home() {
             <li>✔️ A <b>contact system</b> for staying in touch with caregivers or loved ones.</li>
           </ul>
         </div>
-
+/*
         <div className="mt-8 bg-white p-6 rounded-lg shadow-md w-full max-w-lg text-center border-l-4 border-blue-500">
           <h2 className="text-2xl font-bold text-gray-800">The Hardest in the Scene Chatbot</h2>
           <p className="text-gray-600 mt-2">
@@ -46,6 +46,7 @@ export default function Home() {
             Open Chatbot Now
           </a>
         </div>
+  */
 
         {/* Features Section */}
         <div className="mt-12 flex flex-wrap justify-center gap-6">
